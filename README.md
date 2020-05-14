@@ -257,27 +257,27 @@ export default () => {
 
 4. Let's style our nav bar now. Add the classes 'navbar-container' and 'navbar-link'. 
 
-    <details>
-    <summary>Here's what it should look like.</summary>
+<details>
+<summary>Here's what it should look like.</summary>
 
-    ```
-    import React from "react"
-    import { Link } from "gatsby"
+```
+import React from "react"
+import { Link } from "gatsby"
 
-    export default function Navbar({ children }) {
-        return (
-            <div style={{ maxWidth: 650, margin: '0 auto' }}>
-                <div className="navbar-container">
-                    <Link to="/" className="navbar-link">Home</Link>
-                    <Link to="/about/" className="navbar-link">About</Link>
-                </div>
-                {children}
+export default function Navbar({ children }) {
+    return (
+        <div style={{ maxWidth: 650, margin: '0 auto' }}>
+            <div className="navbar-container">
+                <Link to="/" className="navbar-link">Home</Link>
+                <Link to="/about/" className="navbar-link">About</Link>
             </div>
-          )
-    }
-    ```
+            {children}
+        </div>
+      )
+}
+```
 
-    </details>
+</details>
 
 5. Navigate to your global.scss file, and add the following:
 ```
