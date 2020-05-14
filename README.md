@@ -306,6 +306,11 @@ a:hover {
 ![](https://i.imgur.com/twXGyiT.png)
 
 ## Summary / What You Learned
+[ ] Built a static site in Gatsby
+[ ] Used GraphQL to query Markdown files for data
+[ ] Created a layout component for a navigation abr
+[ ] Used the Link component to connect pages with pre-loading
+
 You now know how to use another static site generator! Why is this cool?
 
 Gatsby can be used to build static sites that are Progressive Web Apps, follow the latest web standards, and are optimized to be highly performant. It makes use of the latest and popular technologies including ReactJS, Webpack, GraphQL, modern ES6+ JavaScript and CSS. In other words - everything that we have been using in this class.
