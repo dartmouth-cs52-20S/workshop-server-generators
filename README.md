@@ -306,10 +306,10 @@ a:hover {
 ![](https://i.imgur.com/twXGyiT.png)
 
 ## Summary / What You Learned
-[ ] Built a static site in Gatsby
-[ ] Used GraphQL to query Markdown files for data
-[ ] Created a layout component for a navigation abr
-[ ] Used the Link component to connect pages with pre-loading
+* [ ] Built a static site in Gatsby
+* [ ] Used GraphQL to query Markdown files for data
+* [ ] Created a layout component for a navigation abr
+* [ ] Used the Link component to connect pages with pre-loading
 
 You now know how to use another static site generator! Why is this cool?
 
